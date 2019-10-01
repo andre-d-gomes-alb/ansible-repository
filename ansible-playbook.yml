@@ -2,3 +2,4 @@
 - hosts: local
   tasks:
     - action: ping
+      ignore_errors: yes
